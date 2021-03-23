@@ -133,3 +133,99 @@ body {
   font-size: 14px;
   line-height: 29px;
 }
+.footer {
+  color: #ffff;
+  margin: auto;
+  position: absolute;
+  top: 120%;
+  left: 40%;
+  font-size: 12px;
+  color: #828282;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.footer > p > span {
+  border-bottom: 1px solid #828282;
+}
+
+@media (max-width: 600px) {
+  .nav-bar {
+    margin-left: 10px;
+  }
+  .nav-items {
+    display: none;
+  }
+
+  .logo {
+    font-size: 12px;
+  }
+
+  .description {
+    width: 250px;
+    height: 85px;
+    position: absolute;
+    top: 50px;
+    font-size: 14px;
+    line-height: 17.07px;
+  }
+  .hero-image {
+    width: 391px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+    left: -10%;
+  }
+
+  .title {
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  .sub {
+    font-size: 14px;
+    position: relative;
+    top: -40px;
+    width: 350px;
+  }
+  .description > a {
+    position: relative;
+    top: -80px;
+    font-size: 12px;
+  }
+  .small-card {
+    width: 300px;
+    height: 148px;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+    position: relative;
+    top: 470px;
+    left: 40px;
+  }
+  .small-card > .credit {
+    font-size: 16px;
+    width: 210px;
+    height: 45px;
+    padding-top: 10px;
+  }
+
+  .card-name {
+    margin-top: -15px;
+    font-size: 14px;
+  }
+
+  .card-name > .portfolio {
+    margin-top: -5px;
+    font-size: 10px;
+  }
+
+  .small-image {
+    margin-top: -10px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    margin-left: -60px;
+  }
+}
